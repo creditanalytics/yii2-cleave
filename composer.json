@@ -1,0 +1,30 @@
+{
+    "name": "creditanalytics/yii2-cleave",
+    "description": "Yii2 Cleave.js",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "masked", "cleave.js"],
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Dmitriy Bushin",
+            "email": "dima.bushin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/cleave.js": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "creditanalytics\\cleave\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
